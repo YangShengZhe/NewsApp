@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tabs>
     <tab
-        id="@+id/page"
+        id="@+id/tpage"
         icon="@drawable/page"
         title="首页"/>
     <tab
-        id="@+id/search"
+        id="@+id/tsearch"
         icon="@drawable/search"
         title="发现"/>
     <tab
-        id="@+id/topic"
+        id="@+id/ttopic"
         icon="@drawable/topic"
         title="话题"/>
     <tab
-        id="@+id/account"
+        id="@+id/taccount"
         icon="@drawable/account"
         title="个人"/>
 </tabs>
