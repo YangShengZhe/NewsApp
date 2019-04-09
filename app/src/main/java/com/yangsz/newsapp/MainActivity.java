@@ -11,8 +11,6 @@ import android.view.MenuItem;
 import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
 
-import com.yangsz.newsapp.R;
-
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
@@ -33,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mToolbar=findViewById(R.id.toolbar);
-        initBottomNavigation();
+        initBottomNavigation();//加载导航栏
         initData();
     }
-    //导航栏
+    //处理导航栏逻辑
     public void initBottomNavigation(){
         mBottomNavigationView=findViewById(R.id.bv_bottomNavigation);
         //添加监听,第一次点击时，若再点击添加reselect监听
