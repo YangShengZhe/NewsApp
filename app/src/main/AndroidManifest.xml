@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         //详细页面的活动
-        <activity android:name=".DetailActivity"/>
+
+
+        <activity android:name="com.yangsz.newsapp.DetailActivity"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
