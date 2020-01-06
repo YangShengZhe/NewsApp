@@ -1,2 +1,2 @@
-# NewsApp
-毕业设计
+# App
+小app
